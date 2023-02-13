@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Footy TicTacToe</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container__teams container__teams--y">
+            <div id="team-col-1" class="container__team">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img" id="img-team-col-1">
+                <input id="inputTeam-col-1" class="container__input" type="text" placeholder="messi">
+                <div id="searchTeam-col-1" class="container__searchs"></div>
+            </div>
+            <div id="team-col-2" class="container__team">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img" id="img-team-col-2">
+                <input id="inputTeam-col-2" class="container__input" type="text" placeholder="messi">
+                <div id="searchTeam-col-2" class="container__searchs"></div>
+            </div>
+            <div id="team-col-3" class="container__team">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img" id="img-team-col-3">
+                <input id="inputTeam-col-3" class="container__input" type="text" placeholder="messi">
+                <div id="searchTeam-col-3" class="container__searchs"></div>
+            </div>
+        </div>
+        <div class="container__teams container__teams--x">
+            <div id="team-row-1" class="container__team">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img" id="img-team-row-1">
+                <input id="inputTeam-row-1" class="container__input" type="text" placeholder="messi">
+                <div id="searchTeam-row-1" class="container__searchs container__searchs--row-1"></div>
+            </div>
+            <div id="team-row-2" class="container__team">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img" id="img-team-row-2">
+                <input id="inputTeam-row-2" class="container__input" type="text" placeholder="messi">
+                <div id="searchTeam-row-2" class="container__searchs container__searchs--row-2"></div>
+            </div>
+            <div id="team-row-3" class="container__team">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img" id="img-team-row-3">
+                <input id="inputTeam-row-3" class="container__input" type="text" placeholder="messi">
+                <div id="searchTeam-row-3" class="container__searchs container__searchs--row-3"></div>
+            </div>
+        </div>
+        
+        <div class="container__board">
+            <div id="player-col-1-row-1" class="container__player">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img container__img--circle" id="img-player-col-1-row-1">
+                <input id="inputPlayer-col-1-row-1" class="container__input" type="text" placeholder="messi">
+                <div id="searchPlayer-col-1-row-1" class="container__searchs container__searchs--row-1"></div>
+            </div>
+            <div id="player-col-2-row-1" class="container__player">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img container__img--circle" id="img-player-col-2-row-1">
+                <input id="inputPlayer-col-2-row-1" class="container__input" type="text" placeholder="messi">
+                <div id="searchPlayer-col-2-row-1" class="container__searchs container__searchs--row-1"></div>
+            </div>
+            <div id="player-col-3-row-1" class="container__player">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img container__img--circle" id="img-player-col-3-row-1">
+                <input id="inputPlayer-col-3-row-1" class="container__input" type="text" placeholder="messi">
+                <div id="searchPlayer-col-3-row-1" class="container__searchs container__searchs--row-1"></div>
+            </div>
+
+            <div id="player-col-1-row-2" class="container__player">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img container__img--circle" id="img-player-col-1-row-2">
+                <input id="inputPlayer-col-1-row-2" class="container__input" type="text" placeholder="messi">
+                <div id="searchPlayer-col-1-row-2" class="container__searchs container__searchs--row-2"></div>
+            </div>
+            <div id="player-col-2-row-2" class="container__player">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img container__img--circle" id="img-player-col-2-row-2">
+                <input id="inputPlayer-col-2-row-2" class="container__input" type="text" placeholder="messi">
+                <div id="searchPlayer-col-2-row-2" class="container__searchs container__searchs--row-2"></div>
+            </div>
+            <div id="player-col-3-row-2" class="container__player">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img container__img--circle" id="img-player-col-3-row-2">
+                <input id="inputPlayer-col-3-row-2" class="container__input" type="text" placeholder="messi">
+                <div id="searchPlayer-col-3-row-2" class="container__searchs container__searchs--row-2"></div>
+            </div>
+
+            <div id="player-col-1-row-3" class="container__player">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img container__img--circle" id="img-player-col-1-row-3">
+                <input id="inputPlayer-col-1-row-3" class="container__input" type="text" placeholder="messi">
+                <div id="searchPlayer-col-1-row-3" class="container__searchs container__searchs--row-3"></div>
+            </div>
+            <div id="player-col-2-row-3" class="container__player">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img container__img--circle" id="img-player-col-2-row-3">
+                <input id="inputPlayer-col-2-row-3" class="container__input" type="text" placeholder="messi">
+                <div id="searchPlayer-col-2-row-3" class="container__searchs container__searchs--row-3"></div>
+            </div>
+            <div id="player-col-3-row-3" class="container__player">
+                <img src="./32320-removebg-preview.png" alt="" class="container__img container__img--circle" id="img-player-col-3-row-3">
+                <input id="inputPlayer-col-3-row-3" class="container__input" type="text" placeholder="messi">
+                <div id="searchPlayer-col-3-row-3" class="container__searchs container__searchs--row-3"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./init.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Figtree:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.893);
+    font-family: 'Figtree',sans-serif;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    color: black;
+    position: relative;    
+}
+
+.container__teams{
+    position: absolute;
+    display: flex;
+    width: max-content;
+    
+}
+
+.container__teams--x{
+    display: inline-flex;
+    flex-direction: column;
+    bottom: 0; left: 0;
+}
+
+.container__teams--y{
+    position: absolute;
+    flex-direction: row;
+    justify-content: flex-end;
+    top:0;
+    right: 0;
+}
+
+.container__team{
+    width: 150px;
+    height: 150px;
+
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.container__board{
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 450px;
+}
+
+.container__player{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    outline: 1px solid black;
+}
+
+.container__player--green{
+    background-color: rgb(11, 208, 11);
+    color: white;
+}
+
+.container__player--red{
+    background-color: rgb(208, 14, 11);
+    color: white;
+}
+
+.container__input{
+    width: 100%;
+    text-align: center;
+    font-family: 'Figtree';
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    border: none;
+}
+
+.container__input:hover{
+    outline: none;
+}
+.container__input:focus{
+    outline: none;
+}
+
+.container__img{
+    width: 115px;
+    height: 115px;
+}
+
+.container__img--circle{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.container__img--small{
+    width: 20px;
+    height: 20px;
+}
+
+.container__searchs{
+    outline: 1px solid red;
+    position: absolute;
+    top: 150px;
+    display: none;
+    z-index: 100;
+    width: 150px;
+    height: 100px;
+    overflow: auto;
+    background-color: white;
+}
+.container__searchs--row-1{
+    top: 150px;
+}
+
+.container__searchs--row-2{
+    top: 300px;
+}
+
+.container__searchs--row-3{
+    top: 400px;
+}
+
+.container__itemTeam:hover{
+    background-color: black;
+    color: white
+}
+
+.container__itemPlayer:hover{
+    background-color: black;
+    color: white
+}
